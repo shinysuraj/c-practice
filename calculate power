@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int power(int m,int n)
+{ int i,p=1;
+for(i=1;i<=n;i++)
+p=p*m;
+return(p);
+}
+void main()
+{ int a,b,R;
+printf("\n enter two elements");
+scanf("%d %d",&a,&b);
+R= power(a,b);
+printf("\n power value = %d,R);
+getch();
+}
